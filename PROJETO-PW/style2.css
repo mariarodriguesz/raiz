@@ -1,0 +1,75 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #162c72;
+  
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background: #12107a;
+    color: white;
+    padding: 200x;
+    background-image: url('/PW/PROJETO-PW/IMG/logo.jpg');
+    background-size: 100px;
+    background-position-x: 50px;
+    background-repeat: no-repeat;
+    background-position-y: start;
+
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(17, 12, 78, 0.1);
+    ;
+}
+
+.destaque {
+    background:rgb(48, 56, 94);
+    color: white;
+    padding:10px;
+    font-size: 1.em;
+    ;
+}
+
+footer {
+    
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+
+  
+}
